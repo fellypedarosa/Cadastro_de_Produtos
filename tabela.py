@@ -80,7 +80,7 @@ entry_quantidade.grid(row=2, column=1, pady=5)
 # Campo Categoria
 label_categoria = tk.Label(frame, text="Categoria:")
 label_categoria.grid(row=3, column=0, sticky='e')
-categoria_combobox = ttk.Combobox(frame, values=['Esportes', 'Comida', 'Bebida', 'Jardinagem', 'Móveis', 'Roupas', 'Eletrônicos'])
+categoria_combobox = ttk.Combobox(frame, values=['Esportes', 'Comida', 'Bebida', 'Jardinagem', 'Moveis', 'Roupas', 'Eletronicos'])
 categoria_combobox.grid(row=3, column=1, pady=5)
 categoria_combobox.set("Escolha a categoria")
 categoria_combobox.config(foreground='grey')
